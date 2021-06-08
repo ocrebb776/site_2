@@ -1,0 +1,200 @@
+body {
+  font-family:Arial ;
+  margin-left:190px;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  margin-left:0%;
+    width: 25%;
+	  text-decoration: none;
+}
+.navbar2 {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+    margin-left:25%;
+	    width: 25%;
+}
+.navbar3 {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  margin-left:50%;
+      width: 25%;
+}
+.navbar4 {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+    margin-left:75%;
+	    width: 25%;
+}
+
+
+
+.e{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.columnte {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 90px; 
+  box-sizing: border-box;
+  color:white;
+}
+
+/* Clear floats after the columns */
+.rowte:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rowte {
+	  text-decoration: none;
+}
+
+
+.opent {
+	font-size:20px;
+  color:white;
+}
+.buttonb {
+  color: white;
+  font-size:1px;
+}
+.white{
+	color:grey;
+}
+.foote {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color:grey;
+  color: white;
+  text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.main {
+	margin-top:60px;
+	background:#99ccff;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.maine {
+	margin-top:60px;
+	background:#99ccff;
+	padding:60px; 
+	font-size: 20px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.maint {
+	margin-top:60px;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.mainr {
+	margin-top:48px;
+	background:#ffcc66;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.mainre {
+	margin-top:48px;
+	background:#ff0000;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.title {
+	margin-top:100px;
+	text-align:center;
+	font-size:1px;
+	color:white;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+    margin-left: 170px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+.colum {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 1000px; /* Should be removed. Only for demonstration */
+}
+  .columni {
+  float: right;
+  width: 25%;
+  padding: 10px;
+  height: 1000px; 
+  margin-left: 160px;
+  /* Should be removed. Only for demonstration */
+}
+  .columne {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 849px;
+  }
+  /* Should be removed. Only for demonstratio
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cool{
+	background-image:src"pictures/cool.jpg";
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+.fa:hover {
+    opacity: 0.7;
+}

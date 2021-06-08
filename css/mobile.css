@@ -1,0 +1,214 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background:light-grey;
+  margin:0;
+}
+
+.navbar {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  margin-left:0%;
+    width: 25%;
+  text-decoration: none;
+}
+.navbar2 {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+    margin-left:25%;
+	    width: 25%;
+}
+.navbar3 {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  margin-left:50%;
+      width: 25%;
+}
+.navbar4 {
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+    margin-left:75%;
+	    width: 25%;
+}
+
+
+
+.e{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.columnte {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 90px; 
+  box-sizing: border-box;
+  color:white;
+}
+
+/* Clear floats after the columns */
+.rowte:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+.sidenav {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+.white{
+	color:black;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color:grey;
+  color: white;
+  text-align: center;
+}
+
+.title {
+	margin-top:70px;
+	text-align:center;
+	font-size:60px;
+	
+	
+}
+
+.main {
+	margin-top:60px;
+	background:#99ccff;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.maine {
+	margin-top:60px;
+	background:#99ccff;
+	padding:60px;
+	font-size: 20px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+.mainr {
+	margin-top:0px;
+	background:#eb9036;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+	width:100%;
+	margin:0;
+	
+
+}
+.mainre {
+	margin-top:48px;
+	background:#ff0000;
+	padding:60px;
+	font-size: 28px; /* Increased text to enable scrolling */
+	padding: 0px 10px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  width: 100%;
+  height: 750px; /* Should be removed. Only for demonstration */
+  text-align:center;
+}
+.columni {
+  width: 100%;
+  height: 750px; /* Should be removed. Only for demonstration */
+    text-align:center;
+  
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  .columne {
+  width: 100%;
+  height: 849px; /* Should be removed. Only for demonstration */
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
