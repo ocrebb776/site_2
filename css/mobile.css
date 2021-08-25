@@ -2,48 +2,52 @@ body {
   font-family: 'Lato', sans-serif;
   background:light-grey;
   margin:0;
+    	  background-image: url("../media/images/print2.jpg");
+	  width:60px%
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
-  background-color: #333;
+  background-color: grey;
   position: fixed;
-  bottom: 0;
+  top: 0;
   margin-left:0%;
-    width: 25%;
+    width: 20%;
   text-decoration: none;
+  font-size:20px;
 }
 .navbar2 {
-  background-color: #333;
+  background-color: grey;
   position: fixed;
-  bottom: 0;
-    margin-left:25%;
-	    width: 25%;
+  top: 0;
+    margin-left:20%;
+	    width: 150%;
 }
-.navbar3 {
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  margin-left:50%;
-      width: 25%;
-}
-.navbar4 {
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-    margin-left:75%;
-	    width: 25%;
-}
+
+
 
 
 
 .e{
   box-sizing: border-box;
 }
-
+.margin{
+	margin-top: 90px;
+}
 /* Create two equal columns that floats next to each other */
-.columnte {
+.columntl {
   float: left;
-  width: 25%;
+  width: 40%;
+  padding: 10px;
+  height: 90px; 
+  box-sizing: border-box;
+  color:white;
+}
+.columntr {
+  float: left;
+  width: 60%;
   padding: 10px;
   height: 90px; 
   box-sizing: border-box;

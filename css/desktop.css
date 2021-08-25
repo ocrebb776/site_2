@@ -1,51 +1,58 @@
 body {
   font-family:Arial ;
   margin-left:190px;
+  margin-top:90px;
   margin: 0;
+  	  background-image: url("../media/images/print1.jpg");
+	  width:60px%
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .navbar {
-  background-color: #333;
+  background-color: grey;
   position: fixed;
-  bottom: 0;
+  top: 0;
   margin-left:0%;
-    width: 25%;
-	  text-decoration: none;
+    width: 90%;
+  text-decoration: none;
+  font-size: 50px;
 }
 .navbar2 {
-  background-color: #333;
+  background-color: grey;
   position: fixed;
-  bottom: 0;
-    margin-left:25%;
-	    width: 25%;
+  top: 0;
+    margin-left:50%;
+	    width: 90%;
+		  font-size: 20px;
 }
-.navbar3 {
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  margin-left:50%;
-      width: 25%;
-}
-.navbar4 {
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-    margin-left:75%;
-	    width: 25%;
-}
+
 
 
 
 .e{
   box-sizing: border-box;
 }
+.margin{
+	margin-top: 130px;
+
+}
 
 /* Create two equal columns that floats next to each other */
-.columnte {
+.columntl {
   float: left;
-  width: 25%;
+  width: 40%;
   padding: 10px;
-  height: 90px; 
+  height: 130px; 
+  box-sizing: border-box;
+  color:white;
+}
+.columntr {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  height: 130px; 
   box-sizing: border-box;
   color:white;
 }
